@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styles */
+header {
+  width: 100%;
+  background-color: #8c3838;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+ margin-top: -60px;
+
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Sticky Navbar */
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+ 
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+  min-height: 100vh;
+  margin-top: 60px; /* Space to prevent navbar from overlapping content */
+  text-align: center;
+}
+
+section h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #333;
+}
+
+section p {
+  font-size: 18px;
+  color: rgb(21, 16, 16);
+}
+
+#about{
+  background-color: gray;
+}
+#contact{
+  background-color: rgb(202, 112, 112);
+
+}
